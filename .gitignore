@@ -1,0 +1,33 @@
+# Qt Creator / qmake user files
+*.user
+*.por.user*
+*qbs.user*
+*.qmlproject.user*
+
+# Build directories (Qt Creator suele crear build-*)
+build*/
+**/build*/
+build-*/
+
+# qmake build outputs (a veces aparecen si compilas dentro del proyecto
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qm
+*.qrc.depends
+*.qrc.resources
+
+# Binaries / objects
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dill
+*.exe
+
+# Common OS cruft
+.DS_Store
+Thumbs.db
